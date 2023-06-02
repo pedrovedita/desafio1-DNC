@@ -1,0 +1,114 @@
+*{
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#titulo-superior{
+    margin-left: 80px;
+    padding-top: 100px;
+    font-size: 300%;
+}
+
+#texto-superior{
+    margin-left: 85px;
+    margin-top: 20px;
+    font-size: 120%;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    color: aliceblue;
+    background-color: #303030;
+}
+
+#menuinformacional{
+    background-color: #f9f9f9;
+
+}
+
+#titulo-informacional{
+    display: inline-block;
+    margin-left: 400px;
+    padding-top: 100px;
+}
+
+#texto-informacional{
+    display: inline-block;
+    margin-left: 400px;
+    padding-bottom: 50px;
+}
+
+#texto-informacional2{
+    display: inline-block;
+    margin-left: 240px;
+    padding-bottom: 50px;
+}
+
+#texto-informacional3{
+    display: inline-block;
+    margin-left: 210px;
+    padding-bottom: 50px;
+}
+
+
+
+.foto{
+    float: right;
+    padding: 50px 50px 0px 0px;
+}
+
+#titulo-central{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 300%;
+}
+
+#texto-central{
+    
+    padding-bottom: 300px;
+    padding-right: 50px;
+    padding-left: 200px;
+    font-size: 120%;
+}
+
+.formulario{
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#titulo-fomulario{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#C07212;
+    color: #FFFFFF;
+    border: 0px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #a56e2a;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #7e752a;
+    transition-duration: 0.5s;
+}
